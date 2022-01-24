@@ -155,6 +155,10 @@ footer p {
   .group {
     flex-direction: row;
   }
+  
+.ideasGroup {
+  flex-direction: row;
+}
 
   .logo {
   font-size: 72px;
