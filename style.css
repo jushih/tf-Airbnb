@@ -22,7 +22,7 @@ p {
 }
 
 section {
-  padding: 5% 10%
+  padding: 5% 10%;
 }
 
 section.alternate-background {
@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width:100%;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -39,7 +39,7 @@ main img {
 .group {
   flex-direction: column;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .item {
@@ -51,20 +51,17 @@ main img {
   flex: 2;
 }
 
-
 .ideasGroup {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin:10px;
+  margin: 10px;
   flex-direction: column;
 }
 
 .ideasItem {
   flex: 0 49%;
 }
-
-
 
 /* -------  Navigation ------- */
 
@@ -105,9 +102,24 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-
-
 /* -------  Search Form ------- */
+/*
+.container .item {
+  display: flex block;
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+*/
+/*
+.item label,
+.item input,
+.item select {
+  display: flex;
+  width: 100%; 
+}
+*/
+
+
 form {
   border: 2px solid #ff385c;
   padding: 10px;
@@ -121,7 +133,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 100%; 
 }
 
 form button {
@@ -131,6 +143,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  text-align: center;
 }
 
 /* -------  Footer ------- */
@@ -147,7 +160,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width:800px) {
+@media all and (min-width: 800px) {
   section {
     padding: 20px;
   }
@@ -155,20 +168,21 @@ footer p {
   .group {
     flex-direction: row;
   }
-  
-.ideasGroup {
-  flex-direction: row;
-}
+
+  .ideasGroup {
+    flex-direction: row;
+  }
 
   .logo {
-  font-size: 72px;
-}
-  
+    font-size: 72px;
+  }
+
   header {
     flex-direction: row;
   }
 
   form {
+    display: flex;
     flex-direction: row;
   }
 
