@@ -103,22 +103,6 @@ header nav ul li a:hover {
 }
 
 /* -------  Search Form ------- */
-/*
-.container .item {
-  display: flex block;
-  flex: 1 1 auto;
-  flex-direction: row;
-}
-*/
-/*
-.item label,
-.item input,
-.item select {
-  display: flex;
-  width: 100%; 
-}
-*/
-
 
 form {
   border: 2px solid #ff385c;
