@@ -108,6 +108,7 @@ form {
   border: 2px solid #ff385c;
   padding: 10px;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 form label {
@@ -116,8 +117,8 @@ form label {
 
 form select,
 form input {
-  margin-bottom: 20px;
-  width: 100%; 
+  width: 60%;
+  float: right;
 }
 
 form button {
@@ -168,6 +169,12 @@ footer p {
   form {
     display: flex;
     flex-direction: row;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 100%;
   }
 
 }
